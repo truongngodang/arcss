@@ -1,0 +1,10 @@
+/* ----- Page Wrapper----- */
+
+/*Override Grid Bootstrap*/
+@include media-breakpoint-up(xl) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/*Page Objects*/

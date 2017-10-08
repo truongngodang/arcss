@@ -1,0 +1,10 @@
+mixin c-feature-service-1(data)
+    article.c-feature.c-feature-1
+        a(href='#').d-block.c-feature__image.u-img-radius
+            img(src=data.image alt=data.title).img-fluid.d-block
+        .c-feature__body.text-center
+            .c-label-circle
+                span=data.number
+            h4.c-feature__title
+                a(href='#').e-title.e-title--link=data.title
+            p.e-text.e-text-sm=data.text

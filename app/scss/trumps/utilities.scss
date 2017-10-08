@@ -1,0 +1,73 @@
+//* ----- Utilities----- *//
+
+/*Padding, margin*/
+@for $i from 0 through 50 {
+    $p : 0;
+    @if ($i == 0) {
+        $p: $i;
+    } @else {
+        $p: $i*5;
+    }
+
+    .u-p-b-#{$p} {
+        padding-bottom: $p + px;
+    }
+    .u-p-t-#{$p} {
+        padding-top: $p + px;
+    }
+    .u-p-r-#{$p} {
+        padding-right: $p + px;
+    }
+    .u-p-l-#{$p} {
+        padding-left: $p + px;
+    }
+    .u-m-b-#{$p} {
+        margin-bottom: $p + px;
+    }
+    .u-m-t-#{$p} {
+        margin-top: $p + px;
+    }
+    .u-m-r-#{$p} {
+        margin-right: $p + px;
+    }
+    .u-m-l-#{$p} {
+        margin-left: $p + px;
+    }
+    .u-m-#{$p} {
+        margin: $p + px;
+    }
+    .u-p-#{$p} {
+        padding: $p + px;
+    }
+}
+
+/* Background*/
+
+.u-bg-grey-1 {
+    background: #f5f5f5;
+}
+
+.u-bg-dark-1 {
+    background: #222;
+}
+.u-bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/*List*/
+.u-list-clear {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/*Image*/
+.u-img-radius {
+    border-radius: 5px;
+    overflow: hidden;
+}

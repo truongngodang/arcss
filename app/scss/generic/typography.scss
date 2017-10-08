@@ -1,0 +1,33 @@
+/* ----- Typography ----- */
+body {
+    font-family: $ff-a;
+    font-weight: $fw-regular;
+    font-size: 18px;
+    line-height: calc(30/18);
+    color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $ff-b;
+    color: #333333;
+    font-weight: $fw-bold;
+    line-height: 1.2;
+}
+
+blockquote {
+
+}
+
+strong {
+    font-weight: $fw-bold;
+}
+
+hr {
+    margin: 30px 0;
+    border-color: #fafafa;
+}

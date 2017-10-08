@@ -1,0 +1,18 @@
+mixin o-services-a(bgColor='',  invert='')
+    // section services
+    section(class = bgColor + " " + invert).o-section.o-services-a.u-p-t-150.u-p-b-100
+        .container
+            article.o-section__inner
+                h3.e-heading-section.e-heading-section--center.m-b-60 Services
+                ul.u-list-clear.row
+                    li.col-xl-3.col-lg-6.col-md-6
+                        +c-feature-service-1(services_a[0])
+                    li.col-xl-3.col-lg-6.col-md-6
+                        +c-feature-service-1(services_a[1])
+                    li.col-xl-3.col-lg-6.col-md-6
+                        +c-feature-service-1(services_a[2])
+                    li.col-xl-3.col-lg-6.col-md-6
+                        +c-feature-service-1(services_a[3])
+    // end secton services
+    |
+    |

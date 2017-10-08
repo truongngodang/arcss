@@ -1,0 +1,30 @@
+/* ----- Heading ----- */
+
+/*Heading section*/
+.e-heading-section {
+    font-size: 39px;
+    font-family: $ff-b;
+    font-weight: $fw-bold;
+    color: #111111;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    position: relative;
+
+    &:before {
+        display: block;
+        content: '';
+        background: #cccccc;
+        width: 100px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.e-heading-section--center {
+    text-align: center;
+    &:before {
+        left: 50%;
+        margin-left: -50px;
+    }
+}

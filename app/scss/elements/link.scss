@@ -1,0 +1,37 @@
+/* ----- Links ----- */
+a {
+    display: inline-block;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: $c-a;
+}
+
+a:active {
+    color: $c-a - 10%;
+}
+
+a:hover,
+a {
+    transition: $t-fast;
+}
+
+.e-title {
+    font-family: $ff-b;
+    font-weight: $fw-bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.e-title--link {
+    color: #333333;
+    &:hover {
+        color: $c-a;
+    }
+}

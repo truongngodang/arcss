@@ -1,0 +1,21 @@
+---
+services_a:
+    -   image: images/services-01.jpg
+        number: 01
+        title: Web Design
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales condimentum
+
+    -   image: images/services-02.jpg
+        number: 02
+        title: Copywriter
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales condimentum
+
+    -   image: images/services-03.jpg
+        number: 03
+        title: SEO Marketing
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales condimentum
+
+    -   image: images/services-04.jpg
+        number: 04
+        title: E-Commerce
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales condimentum

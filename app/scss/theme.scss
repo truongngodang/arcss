@@ -1,0 +1,115 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  ARCSS
+Version:	1.0
+Last change:	08/10/2017 [Add Define a table of contents Link]
+Assigned to:	NDT
+Primary use:	Open Source
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[LAYOUT]
+
+* body
+    + Header / header
+	+ Page Content / .page-content .name-page
+        + Section Layouts / section .name-section
+        ...
+	+ Footer / footer
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Color codes]
+
+# Text Color (text): #666666
+# Text Color Deep (Text, title): #333333
+
+------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		16px/1.5 'Lato', Arial, "Helvetica Neue", sans-serif;
+Heading Section:	39px/1.5 'Poppins', Arial, "Helvetica Neue", sans-serif;
+
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+-------------------------------------------------------------------*/
+
+/**!**************/
+/**! Contents **/
+/**! 01. Settings **/
+/**! 02. Tools **/
+/**! 03. Generic **/
+/**! __3.1. Typography **/
+/**! __3.2. normalize **/
+/**! 04. Elements **/
+/**! __4.1 Heading **/
+/**! __4.2 Link **/
+/**! __4.3 Text **/
+/**! 05. Objects **/
+/**! __5.1 section **/
+/**! __5.2 page **/
+/**! 06. Components **/
+/**! __6.1 Buttons **/
+/**! __6.2 Forms **/
+/**! __6.3 Nav **/
+/**! __6.4 Labels **/
+/**! __6.5 Feature **/
+/**! 07. Trumps **/
+/**! __7.1 Utilities **/
+/**! __7.2 Hack **/
+
+
+/*-----------------------------------------------------*/
+/*                   SETTINGS                          */
+/*-----------------------------------------------------*/
+
+@import "settings/global";
+@import "settings/colors";
+
+/*-----------------------------------------------------*/
+/*                   TOOLS                             */
+/*-----------------------------------------------------*/
+
+@import "tools/mixins";
+
+/*-----------------------------------------------------*/
+/*                   GENERIC                           */
+/*-----------------------------------------------------*/
+
+@import "generic/normalize";
+@import "generic/typography";
+
+/*-----------------------------------------------------*/
+/*                   ELEMENTS                          */
+/*-----------------------------------------------------*/
+
+@import "elements/headings";
+@import "elements/link";
+@import "elements/text";
+
+/*-----------------------------------------------------*/
+/*                   OBJECTS                           */
+/*-----------------------------------------------------*/
+
+@import "objects/section";
+@import "objects/page";
+
+/*-----------------------------------------------------*/
+/*                   COMPONENTS                        */
+/*-----------------------------------------------------*/
+
+@import "components/buttons";
+@import "components/forms";
+@import "components/nav";
+@import "components/labels";
+@import "components/features";
+
+/*-----------------------------------------------------*/
+/*                   TRUMPS                            */
+/*-----------------------------------------------------*/
+
+@import "trumps/utilities";
+@import "trumps/hack";

@@ -1,0 +1,36 @@
+/* ----- Feature ----- */
+
+.c-feature-1 {
+    margin-bottom: 50px;
+    .c-feature__image {
+        position: relative;
+        overflow: hidden;
+        img {
+            transition: $t-fast;
+        }
+        &:hover {
+            img {
+                backface-visibility: hidden;
+                transform: translateZ(0) scale(1.1, 1.1);
+                transition: $t-fast;
+            }
+        }
+    }
+
+    .c-feature__title {
+        margin-bottom: 15px;
+    }
+
+    .c-feature__body {
+        position: relative;
+        padding-top: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
+        .c-label-circle {
+            position: absolute;
+            left: 50%;
+            top: -26.5px;
+            margin-left: -26.5px;
+        }
+    }
+}
